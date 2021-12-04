@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: luci-app-ddns 2.4.0-1\n"
 "POT-Creation-Date: 2016-01-30 11:07+0100\n"
-"PO-Revision-Date: 2021-11-25 21:25+0000\n"
-"Last-Translator: CRISTIAN ANDREI <cristianvdr@gmail.com>\n"
+"PO-Revision-Date: 2021-12-03 17:34+0000\n"
+"Last-Translator: Simona Iacob <s@zp1.net>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsddns/ro/>\n"
 "Language: ro\n"
@@ -179,13 +179,15 @@ msgstr "Definește interfața de la care se citește adresa IP a sistemelor"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:826
 msgid "Defines the network to read systems IP-Address from"
-msgstr ""
+msgstr "Definește rețeaua din care se citește adresa IP a sistemelor"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:788
 msgid ""
 "Defines the source to read systems IP-Address from, that will be send to the "
 "DDNS provider"
 msgstr ""
+"Definește sursa de la care se citește adresa IP a sistemelor, care va fi "
+"trimisă furnizorului DDNS"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:508
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:628
@@ -195,11 +197,15 @@ msgstr "Definește care adresă IP \"IPv4/IPv6\" este trimisa furnizorului DDNS"
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:424
 msgid "Directory contains Log files for each running section."
 msgstr ""
+"Directorul conține fișierele jurnal pentru fiecare secțiune în curs de "
+"execuție."
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:418
 msgid ""
 "Directory contains PID and other status information for each running section."
 msgstr ""
+"Directorul conține PID și alte informații de stare pentru fiecare secțiune "
+"în curs de execuție."
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:17
 msgid "Disabled"
@@ -247,7 +253,7 @@ msgstr "Intervalul reîncercărilor în caz de eroare"
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:858
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:867
 msgid "Event Network"
-msgstr ""
+msgstr "Rețeaua de evenimente"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:836
 msgid "Example for IPv4"
@@ -279,7 +285,7 @@ msgstr "Forțarea versiunii IP nu este suportată"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:986
 msgid "Force Interval"
-msgstr ""
+msgstr "Interval de forță"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:917
 msgid "Force TCP on DNS"
@@ -287,7 +293,7 @@ msgstr "Forțați TCP pe DNS"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1012
 msgid "Force Unit"
-msgstr ""
+msgstr "Unitatea de forță"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:929
 msgid "Format"
@@ -295,13 +301,14 @@ msgstr "Format"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:908
 msgid "Format: IP or FQDN"
-msgstr ""
+msgstr "Format: IP sau FQDN"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:335
 msgid ""
 "GNU Wget will use the IP of given network, cURL will use the physical "
 "interface."
 msgstr ""
+"GNU Wget va folosi IP-ul rețelei date, iar cURL va folosi interfața fizică."
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:263
 msgid "Global Settings"
@@ -419,7 +426,7 @@ msgstr "Ultima actualizare"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:607
 msgid "Log File Viewer"
-msgstr ""
+msgstr "Vizualizator de fișiere jurnal"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:423
 msgid "Log directory"
@@ -585,7 +592,7 @@ msgstr ""
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1071
 msgid "Please press [Read] button"
-msgstr ""
+msgstr "Vă rugăm să apăsați butonul [Read]"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1054
 msgid "Read / Reread log file"
@@ -602,7 +609,7 @@ msgstr ""
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:572
 msgid "Reload"
-msgstr ""
+msgstr "Reîncărcare"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:555
 msgid "Reload this service"
@@ -635,7 +642,7 @@ msgstr ""
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:227
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1109
 msgid "Running"
-msgstr ""
+msgstr "Rulare"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:794
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:851
@@ -684,7 +691,7 @@ msgstr "Stat"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:1103
 msgid "Status"
-msgstr "Status"
+msgstr "Stare"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:417
 msgid "Status directory"
@@ -804,7 +811,7 @@ msgstr ""
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:946
 msgid "Warning"
-msgstr ""
+msgstr "Avertisment"
 
 #: applications/luci-app-ddns/htdocs/luci-static/resources/view/ddns/overview.js:955
 msgid ""
